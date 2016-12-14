@@ -1,0 +1,20 @@
+Program um die Werte von einem SIEMENS 7KT1341 Mulitzaehler abzufragen
+
+01-Jan-2010 by D. Buergin
+
+- benoetigt libmodbus 2.9.2 installiert unter /usr/local
+- basiert auf libmodbus-2.9.2/tests/unit-test-server.c
+- config.h und unit-test.h sind original aus dem libmodbus Verzeichnis
+
+To compile:
+
+gcc siemens_7KT1341.c -o siemens_7KT1341 -I /usr/local/include/modbus -lmodbus
+
+History
+=======
+
+V01 - V04 Versuche
+
+V05: Weitere Datenwerte eingefuegt
+
+V06: Korrektur Ausgabe
